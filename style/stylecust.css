@@ -1,0 +1,317 @@
+body{/*mensetting tag body*/
+	font-family: arial; /*mensetting font*/
+}
+a{/*mensetting tag a */
+	text-decoration: none; /*mengapus underline pda tag a*/
+}
+.menu{/*memanggil class menu */
+	background-color: #b8d3f3; /*mensetting warna background*/
+	height: 60px; /*mengatur tinggi body 60px*/
+	font-size: 25pt; /*set font 25pt*/
+	color: #014a94; /*Mensetting warna*/
+	padding-top: 10px; /*set jarak pada atas text*/
+}
+.mobile{/*mensetting class mobile*/
+	text-align: center; /*set text pada posisi tengah*/
+	font-family: impact; /*mensetting font*/
+}
+.cust{/*memanggil class cust*/
+	font-family: calibri; /*mensetting font*/
+	text-align: right; /*set text pada posisi kanan*/
+}
+.logoatas {/*memanggil class logoatas*/
+	height: 50px; /*set tinggi 50px*/
+	margin-left: 10px; /*memberi jarak pada kiri class*/
+	float: left; /*set float ke kiri*/
+}
+.sidebar{
+	background-color: #014a94;/*mensetting warna background*/
+	float: left;/*set float ke kiri*/
+	width: 15%;/*set lebar class*/
+	height: 520px;/*set tinggi class*/
+	color: white;/*set color font*/
+}
+.sidebar a{
+	color: white;/*mensetting warna font*/
+}
+.dasboard{/*memanggil class dasboard*/
+	height: 9%; /*set tinggi 9%*/
+	padding-top: 20px; /*set jarak pada atas text*/
+}
+.dasboard a{
+	margin-left: 20%;/*memberi jarak pada kiri class*/
+}
+.dasboard:hover{
+	background-color: #7aa0c7; /*mensetting warna background*/
+}
+.isi{
+	background: url(../img/bgdalam.jpg); /*mensetting background image*/
+	background-repeat: no-repeat;
+	height: 500px;/*set tinggi class*/
+}
+.selamat{	
+	text-align: center; /*set text pada posisi tengah*/
+	font-weight: bold;/*mengatur tebal teks*/
+	font-size: 18pt;/*set ukuran font*/
+}
+.selamat2{
+	text-align: center;/*set text pada posisi tengah*/
+}
+.profil{
+	height: 9%;/*set tinggi 9%*/
+	padding-top: 20px;/*set jarak pada atas text*/
+}
+.profil a{
+	margin-left: 20%;/*memberi jarak pada kiri class*/
+}
+.h1profil{
+	text-align: center;/*set text pada posisi tengah*/
+}
+.profil:hover{
+	background-color: #7aa0c7;/*mensetting warna background*/
+}
+.data{
+	background-color: #406899;/*mensetting warna background*/
+	height: 40%;/*set tinggi 40%*/
+	margin-left: 40%;/*memberi jarak pada kiri class*/
+	margin-right: 30%;/*memberi jarak pada kanan class*/
+	border-radius: 5px;/*mensetting tepi border*/
+	color: white;/*mensetting warna font*/
+}
+.data2{
+	margin-left: 25%;/*memberi jarak pada kiri class*/
+}
+.buttonup{
+	background-color: #ffc107;/*mensetting warna background*/
+	border-color: #ffc109;/*mensetting warna border*/
+	margin-left: 25%;/*memberi jarak pada kiri class*/
+	border-radius: 2px;/*mensetting tepi border*/
+	color: white;/*mensetting warna font*/
+}
+.buttonup1{
+	background-color: #ffc107;/*mensetting warna background*/
+	border-color: #ffc107;/*mensetting warna border*/
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+	height: 20px;/*set tinggi 20px*/
+	margin-top: 5px;/*memberi jarak pada atas class*/
+	text-align: center;/*set text pada posisi tengah*/
+	color: white;/*mensetting warna font*/
+}	
+.logoutin{
+	background-color: #dc3545;/*mensetting warna background*/
+	border-color: #dc3545;/*mensetting warna border*/
+	height: 20px;/*set tinggi 20px*/
+	border-radius: 7px;/*mensetting tepi border*/
+	text-align: center;/*set text pada posisi tengah*/
+	color: white;/*mensetting warna font*/
+}
+.datacudat{
+	background-color: #406899;/*mensetting warna background*/
+	height: 80%;/*set tinggi 80%*/
+	margin-left: 40%;/*memberi jarak pada kiri class*/
+	margin-right: 30%;/*memberi jarak pada kanan class*/
+	border-radius: 5px;/*mensetting tepi border*/
+	color: white;/*mensetting warna font*/
+}
+label{
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+}
+.inputan input {
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+	border: none;/*mensetting border none*/
+	background-color: #406899;/*mensetting warna background*/
+	border-bottom: 3px solid white;/*mensetting border bawah*/
+	outline: none;
+	color: white;/*mensetting warna font*/
+	width: 300px;/*set lebar class*/
+}
+.error-message{
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+}
+.lolos{
+	margin-left: 40%;/*memberi jarak pada kiri class*/
+	color: #4eff4e;/*mensetting warna font*/
+}
+.eror{
+	color: red;/*mensetting warna font*/
+}
+.laporaneror{
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+}
+.error-message-form{
+	font-size: 15px;/*set font 15px*/
+	text-align: center;/*set text pada posisi tengah*/
+}
+.sukses{
+	color: #4eff4e;/*mensetting warna font*/
+}
+.updatec{
+	text-align: center;/*set text pada posisi tengah*/
+	padding-top: 10px;/*set jarak pada atas text*/
+}
+.tombol{
+	margin-top: 20px;/*atur jarak pada bagian atas class*/
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+	padding-bottom: 20px;/*set jarak pada bawah text*/
+}
+.kembali{
+	color: white;/*mensetting warna font*/
+	background-color: #ffc107;/*set warna background*/
+	border-color: #ffc107;/*mensetting warna border*/
+	color: white;/*mensetting warna font*/
+	border-radius: 4px;/*mensetting tepi border*/
+}
+.updatewarna{
+	color: white;/*mensetting warna font*/
+	background-color: #007bfe;/*set warna background*/
+	border-color: #007bfe;/*mensetting warna border*/
+	margin-left: 15%;/*memberi jarak pada kiri class*/
+}
+.resetupdate{
+	color: white;/*mensetting warna font*/
+	background-color: #dc3545;/*set warna background*/
+	border-color: #dc3545;/*mensetting warna border*/
+}
+.rekening{
+	height: 9%;/*set tinggi 9%*/
+	padding-top: 20px;/*set jarak pada atas text*/
+}
+.rekening a{
+	margin-left: 20%;/*memberi jarak pada kiri class*/
+}
+.rekening:hover{
+	background-color: #7aa0c7;/*set warna background*/
+}
+.update{
+	color: black;/*mensetting warna font*/
+}
+.isirekening{
+	margin-left: 26%;/*memberi jarak pada kiri class*/
+	background-color: #406899;/*set warna background*/
+	margin-right: 15%;/*memberi jarak pada kanan class*/
+	border-radius: 7px;/*mensetting tepi border*/
+	color: white;/*mensetting warna font*/
+}
+.isirekening a{
+	color: white;/*mensetting warna font*/
+}
+.isirekening2{
+	margin-left: 10%;/*memberi jarak pada kiri class*/
+}
+.rekeningcust{
+	text-align: center;/*set text pada posisi tengah*/
+	font-weight: bolder;/*mengatur tebal teks*/
+	background-color: #9bb300;/*set warna background*/
+}
+table,td,tr,th{
+	border: 1px solid white;/*mensetting border tabel*/
+}
+.transak1{
+	background-color: #ffc107;/*set warna background*/
+	border-color: #ffc107;/*mensetting warna border*/
+}
+.transak2{
+	background-color: #5bc0de;/*set warna background*/
+	border-color: #5bc0de;/*mensetting warna border*/
+}
+.riw{
+	background-color: #28a745;/*set warna background*/
+	border-color: #28a745;/*mensetting warna border*/
+}
+.isiriwayat{
+	margin-left: 30%;/*memberi jarak pada kiri class*/
+	background-color: #406899;/*set warna background*/
+	margin-right: 20%;/*memberi jarak dari kanan class*/
+	text-align: center;/*set text pada posisi tengah*/
+	color: white;/*mensetting warna font*/
+	border-radius: 7px;/*mensetting tepi border*/
+}
+.isiriwayat2{
+	margin-left: 12%;/*set jarak pada kiri class*/
+}
+.buttonback{
+	background-color: #ffc107;/*set warna background*/
+	border-color: #ffc107;/*mensetting warna border*/
+	margin-left: 40%;/*set jarak pada kiri class*/
+}
+.ditransak1{
+	margin-left: 30%;/*set jarak pada kiri class*/
+	background-color: #406899;/*set warna background*/
+	margin-right: 20%;/*set jarak pada kanan class*/
+	color: white;/*mensetting warna font*/
+	border-radius: 7px;/*mensetting tepi border*/
+	padding-bottom: 20px;/*memberi jarak pada bawah class*/
+}
+.translain{
+	text-align: center;/*set text pada posisi tengah*/
+}
+.inputantran{
+	margin-left: 10%;/*set jarak pada kiri class*/
+}
+.kembali1{
+	color: white;/*mensetting warna font*/
+	background-color: #ffc107;/*set warna background*/
+	border-color: #ffc107;/*mensetting warna border*/
+	margin-left: 10%;/*set jarak pada kiri class*/
+}
+.masalahform{
+	margin-left: 20%;/*set jarak pada kiri class*/
+	color: red;/*mensetting warna font*/
+}
+.footer{
+	clear: both;
+	text-align: center;/*set text pada posisi tengah*/
+	background-color: #b8d3f3;/*set warna background*/
+	padding-top: 1px;/*mengatur jarak pada atas text*/
+	padding-bottom: 1px;/*mengatur jarak pada bawah text*/
+	font-weight: bold;/*mensetting tebal font*/
+	color: #014a94;/*mensetting warna font*/
+}
+.isidatcust{
+	background-color: #406899;/*set warna background*/
+	text-align: center;/*set text pada posisi tengah*/
+	color: white;/*mensetting warna font*/
+	border-radius: 7px;/*mensetting tepi border*/
+}
+.updatewarna1{
+	color: white;/*mensetting warna font*/
+	background-color: #007bfe;/*set warna background*/
+	border-color: #007bfe;/*mensetting warna border*/
+}
+.isiriwayatreg{
+	margin-left: 30%;/*set jarak pada kiri class*/
+	background-color: #406899;/*set warna background*/
+	margin-right: 20%;/*set jarak pada kanan class*/
+	color: white;/*mensetting warna font*/
+	border-radius: 7px;/*mensetting tepi border*/
+}
+.labelreg{
+	margin-left: 10%;/*set jarak pada kiri class*/
+}
+.inputanreg{
+	margin-left: 10%;/*set jarak pada kiri class*/
+}
+.inputanreg input{
+	width: 80%;/*mengatur lebar class*/
+}
+.error-message-form1{
+	font-size: 15px;/*mensetting ukuran font*/
+	margin-left: 40%;/*set jarak pada kiri class*/
+}
+.geser{
+	margin-left: 70%;/*set jarak pada kiri class*/
+	padding-bottom: 20px;/*mensetting jarak bawah teks*/
+}
+.geser input{
+	color: white;/*mensetting warna font*/
+}
+.table1{
+	margin-left: 10%;/*set jarak pada kiri class*/
+}
+.updatewarna2{
+	color: white;/*mensetting warna font*/
+	background-color: #007bfe;/*set warna background*/
+	border-color: #007bfe;/*mensetting warna border*/
+	margin-left: 29%;/*set jarak pada kiri class*/
+	margin-top: 10px/*set jarak pada atas class*/
+}

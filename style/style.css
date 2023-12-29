@@ -1,0 +1,129 @@
+body{/*mensetting tag body*/
+	background: url(../img/bg.jpg);/*mensetting background body*/
+	background-repeat: no-repeat;/*mensetting agar gambar tidak terulang*/
+	height: 600px;/*mengatur tinggi body 600px*/
+	font-family: verdana;/*mensetting font*/
+	background-color: #72b6ab; /*mensetting warna background*/
+}
+body a{/*mensetting tag a pada body*/
+	text-decoration: none;/*mengapus underline pda tag a*/
+	color: white;/*set warna ptutih pada font*/
+}
+.logoatas {/*memanggil class logoatass*/
+	height: 80px;/*set tinggi 80px*/
+	margin-left: 20px;/*memberi jarak pada kiri class*/
+	float: left;/*set float ke kiri*/
+}
+.menu{/*memanggil class menu */
+	color: white;/*set color text putih*/
+	font-size: 22px;/*set font 22px*/
+}
+.dasboard {/*memanggil class dasboard*/
+	margin-left: 70% ;/*memberi jarak pada class*/
+	float: left;/*set float ke kiri*/
+	margin-right: 20px;/* memberi jarak pada kanan class */
+}
+.dasboard:hover {/*set saat cursor pada class dasboard*/
+	background-color:#ebbb0d;/*set wara background*/
+	transition: 0.7s;/*set waktu transisi saat cusrsor diarahkan ke class*/
+	border-radius: 5px;/*mengatur sudut class*/
+}
+.about{/*memanggil class about*/
+	float: left;/*set float ke kiri*/
+	margin-right: 15px;/*memberi jarak pada kanan class*/
+}
+.about:hover {/*set saat cursor diarahkan ke class*/
+	background-color:#ebbb0d;/*set warna class*/
+	transition: 0.7s;/*set waktu transisi saat cusrsor diarahkan ke class*/
+	border-radius: 5px;/*mengatur sudut class*/
+}
+.contact{/*memanggil class contact*/
+	float: left;/*set float ke kiri*/
+	margin-right: 15px;/*memberi jarak dari kanan class*/
+}
+.contact:hover {/*set saat cursor diarahkan ke class*/
+	background-color:#ebbb0d;/*set warna background*/
+	transition: 0.7s;/*set waktu transisi*/
+	border-radius: 5px;/*mengatur sudut class*/
+}
+.masukcust{	/*memanggil class masukcust*/
+	margin-top: 20px;/*mengatur jarak pada atas class*/
+	text-align: center;/*set text pada posisi tengah*/
+	border-radius: 7px;/*mengatur sudut class*/
+	background-color: #ffc800;/*set warna background*/
+	border-color: #ffc800;/*set warna border*/
+	text-decoration: none;/*hilangkan underline pada tag a*/
+	width: 100px;/*mengatur panjang class*/
+	padding-top: 10px;/*mengatur jarak pada atas text*/
+	height: 40px;/*mengatur tinggi class*/
+	margin-left: 45%;/*set jarak pada kiri class*/
+}
+.masukcust:hover {/*set pada saat cursor diarahkan ke class*/
+	background-color:#ebbb0d;/*set warna background*/
+	transition: 0.1s;/*set waktu transisi*/
+	border-radius: 5px;/*set sudut class*/
+}
+.isi{/*memanggil class isi*/
+	clear: left;/*hilangkan float*/
+	color: white;/*set warna putih*/
+	text-align: center;/*set text posisi tengah*/
+	padding-top: 15%;/*set jarak pada atas text*/
+}
+.datang {/*memanggi class datang*/
+	font-size: 90px;/*set ukuran font*/
+}
+.bank{/*memanggil class bank*/
+	font-size: 80px;/*set ukuran font*/
+}
+
+
+
+
+
+
+.content{/*memanggil class content*/
+	background-color: #b6f5ff;/*set warna background*/
+	height: 60%;/*set tinggi class*/
+	margin-left: 35%;/*atur jarak pada kiri class*/
+	margin-right: 35%;/*set jarak pada kanan class*/
+	border-radius: 10px;/*set sudut class*/
+	margin-top: 17%;/*atur jarak pada bagian atas class*/
+}
+form{/*memanggil class form*/
+	margin-left: 15%;/*memberi jarak pada kiri class*/
+	padding-top: 7%;/*memberi jarak pada atas text*/
+}
+.inputan input{/*memanggil tag input pada class inputan */
+	border: none;/*set border none*/
+	background-color: #b6f5ff;/*set warna background*/
+	border-bottom: 3px solid black;/*set ukuran border dan warna hitam*/
+	outline: none;/*set outline none*/
+	width: 80%;/*set tinggi class*/
+}
+.eror{/*memanggil class eror*/
+	color: red;/*set warna text menjadi merah*/
+}
+.sukses{/*memanggil class sukses*/
+	color: green;/*set warna menjadi hijau*/
+}
+.form-error{/*memanggil class form-eror*/
+	margin-left: 25%;/*set jarak pada kiri class*/
+}
+.inputsbm input{/*memanggil tag input pada class inputsbm*/
+	background: #46de4b;/*set background*/
+	color: white;/*set warna text*/
+	font-size: 11pt;/*set ukuran font*/
+	border: none;/*set tidak ada border*/
+	border-radius: 3px;/*set sudut class*/
+	padding: 10px;/*set jarak diantara text*/
+	width: 82%;/*set panjang class*/
+	margin-top: 2%;/*set jarak pada atas class*/
+}
+.inputsbm input:hover{/*set ketika cursor diarahkan ke class inputsbm*/
+	background-color:#6caef5;/*set warna background*/
+	transition: 0.1s;/*set waktu transisi*/
+	border-radius: 5px;/*set sudut class*/
+}
+h3{/*memanggil class h3*/
+	margin-left: 30%;/*set jarak pada kiri class*/
+}
